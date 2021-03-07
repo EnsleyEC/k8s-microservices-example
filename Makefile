@@ -9,7 +9,7 @@ include make-utils/minikube-utils.mk
 
 .PHONY: deploy-cluster
 deploy-cluster: ## Deploy all manifests k8s
-	kubectl apply -f voting-app/pods
+	kubectl apply -f voting-app/deployments
 	kubectl apply -f voting-app/services
 
 .PHONY: get-urls
