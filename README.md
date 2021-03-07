@@ -68,6 +68,10 @@ The microservices architecture is based on the drawing below:
 
 Firstly, on k8s-microservices-example directory, just try: `make help` command and you will see the commands availables.
 
+### Clone project
+
+        git clone https://github.com/EnsleyEC/k8s-microservices-example.git
+
 ### Start cluster
 
         make minikube-start
