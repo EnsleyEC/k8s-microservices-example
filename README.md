@@ -33,7 +33,7 @@ The microservices architecture is based on the drawing below:
               |      POD       |              |      POD       |
               | +------------+ |              | +------------+ |
 +---------+   | |            | |              | |            | |     +---------+
-|Port:6373|   | |            | |              | |            | |     |Port:5432|
+|Port:6379|   | |            | |              | |            | |     |Port:5432|
 +---------+   | | Redis-db   | |              | | Postgres-db| |     +---------+
               | |            | |              | |            | |
               | |            | |              | |            | |
