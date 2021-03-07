@@ -1,6 +1,6 @@
 # kubernetes (k8s) microservices example
 
-It's a simple project using k8s and a application of [voting](https://github.com/kodekloudhub/example-voting-app) course.
+It's a simple project using k8s and a application ([voting](https://github.com/kodekloudhub/example-voting-app)) of microservices.
 
 ## :hushed: Overview
 
