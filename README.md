@@ -84,7 +84,7 @@ Firstly, on k8s-microservices-example directory, just try: `make help` command a
 
         make get-urls
 
-## Known issues
+## :monocle_face: Known issues
 
 * Database passwords that are not using secrets or env variables.
 
