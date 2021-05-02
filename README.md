@@ -1,4 +1,4 @@
-# kubernetes (k8s) microservices example
+# Kubernetes (k8s) microservices example + Istio monitoring
 
 It's a simple project using k8s and a application ([voting](https://github.com/kodekloudhub/example-voting-app)) of microservices.
 
@@ -63,6 +63,7 @@ The microservices architecture is based on the drawing below:
   - [make](https://howtoinstall.co/pt/make)
   - [kubectl](https://kubernetes.io/docs/tasks/tools/)
   - [minikube](https://minikube.sigs.k8s.io/docs/start/)
+  - [Istio](https://istio.io)
   
 ## :blue_car: Running
 
@@ -76,13 +77,17 @@ Firstly, on k8s-microservices-example directory, just try: `make help` command a
 
         make minikube-start
 
-### Deploy k8s application
+### Deploy k8s application + Istio
 
-        make deploy-cluster
+        make deploy-app
 
 ### Get apps urls (voting and result apps)
 
-        make get-urls
+        make get-app-urls
+
+### Get Kiali UI - URL (Istio)
+
+        make get-kiali-url
 
 ## :monocle_face: Known issues
 
@@ -90,8 +95,9 @@ Firstly, on k8s-microservices-example directory, just try: `make help` command a
 
 ## :bookmark_tabs: Reference
 
-* Github project based: https://github.com/kodekloudhub/example-voting-app
-* Learned content: https://kodekloud.com
+* Github project based: 
+  * https://github.com/kodekloudhub/example-voting-app
+  * https://github.com/DickChesterwood/istio-fleetman/tree/master/_course_files/warmup-exercise
 * ASCII art: https://asciiflow.com/#/
 * Markdown Emojis VSCode: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji
 * Emoji list: https://github.com/ikatyang/emoji-cheat-sheet
